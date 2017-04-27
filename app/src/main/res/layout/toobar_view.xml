@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="?actionBarSize"
     android:navigationIcon="?attr/actionModeCloseDrawable"
-    android:title="什么东东"
     android:background="@color/colorPrimary">
 
 </android.support.v7.widget.Toolbar>

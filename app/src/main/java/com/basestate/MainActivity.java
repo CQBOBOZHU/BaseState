@@ -22,6 +22,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void initView(Bundle savedInstanceState) {
         toolbar = getView(R.id.toobar);
+        toolbar.setTitle("什么是title");
         setSupportActionBar(toolbar);
         toolbar.setNavigationIcon(R.drawable.ic_back);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
