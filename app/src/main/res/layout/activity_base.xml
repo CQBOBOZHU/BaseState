@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:id="@+id/base_toolbar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <ViewStub
+        android:id="@+id/base_loading_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/base_loading_inflaterId"
+        android:layout="@layout/base_loading_view" />
+
+    <ViewStub
+        android:id="@+id/base_empty_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/base_empty_inflaterId"
+        android:layout="@layout/base_empty_view" />
+
+    <ViewStub
+        android:id="@+id/base_loading_error_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/base_loading_error_inflaterId"
+        android:layout="@layout/base_loading_error_view" />
+
+    <ViewStub
+        android:id="@+id/base_network_error_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/base_network_error_inflaterId"
+        android:layout="@layout/base_network_error__view" />
+
+
+    <FrameLayout
+        android:id="@+id/base_contentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>

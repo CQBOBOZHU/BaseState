@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BaseState</string>
+    <string name="base_net_error">网络错误了把，傻了把。叫你不开4G！</string>
+    <string name="base_empty">数据都没有，干啥吃的</string>
+    <string name="base_loading_error">这个锅,谁来背</string>
+    <string name="base_loading">正在快速加载中...</string>
+</resources>
